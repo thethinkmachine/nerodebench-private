@@ -1,0 +1,33 @@
+{
+  "dataset": "nerodebench",
+  "version": "1.0.0-draft",
+  "split": "private-ood",
+  "seed": "ood-383b78ff6aa480091a15d8940def970b",
+  "rules": "../../rules/ood.py",
+  "exclude": [
+    "../../../nerodebench/build/v1/public.manifest.json",
+    "../../build/v1/private-iid.manifest.json"
+  ],
+  "counts": {
+    "A": {
+      "1": 33,
+      "2": 34,
+      "3": 33
+    },
+    "B": {
+      "1": 33,
+      "2": 34,
+      "3": 33
+    },
+    "C": {
+      "1": 33,
+      "2": 34,
+      "3": 33
+    },
+    "D": {
+      "1": 33,
+      "2": 34,
+      "3": 33
+    }
+  }
+}

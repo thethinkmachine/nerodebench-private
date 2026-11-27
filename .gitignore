@@ -1,0 +1,10 @@
+# Drafts: built from the configs, reproducible, never committed.
+build/
+
+# Run outputs.
+results/
+
+__pycache__/
+*.pyc
+.venv/
+.env

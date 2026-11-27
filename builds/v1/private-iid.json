@@ -1,0 +1,32 @@
+{
+  "dataset": "nerodebench",
+  "version": "1.0.0-draft",
+  "split": "private-iid",
+  "seed": "iid-98807dfcd087ca6008ceb3636c26832b",
+  "rules": null,
+  "exclude": [
+    "../../../nerodebench/build/v1/public.manifest.json"
+  ],
+  "counts": {
+    "A": {
+      "1": 100,
+      "2": 100,
+      "3": 100
+    },
+    "B": {
+      "1": 100,
+      "2": 100,
+      "3": 100
+    },
+    "C": {
+      "1": 100,
+      "2": 100,
+      "3": 100
+    },
+    "D": {
+      "1": 100,
+      "2": 100,
+      "3": 100
+    }
+  }
+}
